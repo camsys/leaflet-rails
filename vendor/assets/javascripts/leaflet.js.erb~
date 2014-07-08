@@ -1051,7 +1051,7 @@ L.DomUtil = {
 		var is3d = L.Browser.webkit3d,
 		    open = 'translate' + (is3d ? '3d' : '') + '(',
 		    close = (is3d ? ',0' : '') + ')';
-		point.x = point.x + (Math.random() / 10000); //https://github.com/Leaflet/Leaflet/issues/2693
+
 		return open + point.x + 'px,' + point.y + 'px' + close;
 	},
 
